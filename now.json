@@ -1,0 +1,14 @@
+{
+    "name": "website",
+    "version": 1,
+    "alias": [ "website" ],
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@now/next"
+      }
+    ],
+    "github": {
+      "enabled": false
+    }
+  }
