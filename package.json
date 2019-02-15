@@ -22,7 +22,7 @@
     "@zeit/next-css": "^1.0.1",
     "antd": "^3.13.2",
     "next": "^8.0.0-canary.21",
-    "react": "^16.8.1",
+    "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-jss": "^8.6.1",
     "rebass": "^3.0.1",
