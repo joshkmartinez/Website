@@ -1,14 +1,6 @@
 {
-    "name": "website",
-    "version": 1,
-    "alias": [ "website" ],
-    "builds": [
-      {
-        "src": "package.json",
-        "use": "@now/next"
-      }
-    ],
-    "github": {
-      "enabled": false
-    }
-  }
+  "name": "jkm",
+  "alias": [ "jkm.now.sh" ],
+  "version": 2,
+  "builds": [{ "src": "next.config.js", "use": "@now/next" }]
+}
