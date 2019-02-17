@@ -1,6 +1,6 @@
 {
   "name": "jkm",
-  "alias": ["jkm.now.sh"],
+  "alias": ["jkm.now.sh","josh.now.sh","joshkmartinez.now.sh","joshua.now.sh","joshuamartinez.now.sh"],
   "version": 2,
   "builds": [{ "src": "next.config.js", "use": "@now/next" }],
   "github": {
