@@ -1,6 +1,23 @@
 {
   "name": "jkm",
-  "alias": ["jkm.now.sh","josh.now.sh","joshkmartinez.now.sh","joshua.now.sh","joshuamartinez.now.sh"],
+  "alias": [
+    "jkm.now.sh",
+    "josh.now.sh",
+    "joshkmartinez.now.sh",
+    "joshua.now.sh",
+    "joshuamartinez.now.sh",
+    "9493382018",
+    "3382018",
+    "joshkm",
+    "joshmartinez",
+    "joshuam",
+    "joshuakm",
+    "joshuakmartinez",
+    "jmart",
+    "jkmart",
+    "ShoppingCart",
+    "Juicebox"
+  ],
   "version": 2,
   "builds": [{ "src": "next.config.js", "use": "@now/next" }],
   "github": {
