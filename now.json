@@ -16,7 +16,16 @@
     "jmart",
     "jkmart",
     "ShoppingCart",
-    "Juicebox"
+    "Juicebox",
+    "369",
+    "333",
+    "999",
+    "963",
+    "3301",
+    "123456",
+    "functional",
+    "phunctional",
+    "phunction"
   ],
   "version": 2,
   "builds": [{ "src": "next.config.js", "use": "@now/next" }],

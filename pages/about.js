@@ -1,6 +1,6 @@
 const About = () => (
     <div>
-      <p>I am a profession hooman.</p>
+      <p>I make the thing do something.</p>
     </div>
   )
   export default About
