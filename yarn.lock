@@ -2211,11 +2211,6 @@ detect-libc@^1.0.2:
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
   integrity sha1-+hN8S9aY7fVc1c0CrFWfkaTEups=
 
-devtools-detect@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/devtools-detect/-/devtools-detect-2.2.0.tgz#95bd923fe2e54b0f92d91595e82753d909eec312"
-  integrity sha1-lb2SP+LlSw+S2RWV6CdT2QnuwxI=
-
 diffie-hellman@^5.0.0:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/diffie-hellman/-/diffie-hellman-5.0.3.tgz#40e8ee98f55a2149607146921c63e1ae5f3d2875"
@@ -5334,10 +5329,10 @@ readdirp@^2.2.1:
     micromatch "^3.1.10"
     readable-stream "^2.0.2"
 
-rebass@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/rebass/-/rebass-3.0.1.tgz#140230f4e4eceaf7adb682bcf380ceb0fff82d2f"
-  integrity sha512-IiETPunFNc3zoZoHpDsCS2Gk+OvTF6tDOSBeZzDSk9d2RMg/5DeRaXgnXnaYm+4XY1tcj7iV3psURqWpIcSdtg==
+rebass@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/rebass/-/rebass-3.0.2.tgz#1696be3066a35d3d7b4d97441186a58fafb9fab6"
+  integrity sha512-phlr+H+haTsIrg0btGBxb22wpW+4wX0+cwN7z7l+UsRN6tWdKvcPdoIqK6jcpeuWCiKirMMojrUgaSoCV5LEuA==
   dependencies:
     styled-system "^3.2.1"
 
