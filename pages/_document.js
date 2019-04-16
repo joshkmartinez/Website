@@ -30,7 +30,26 @@ export default class extends Document {
     return (
       <html lang="en">
         <Head>
+          <style>{`
+            body {
+              margin: 0;
+              padding: 0;
+            }
+
+            @media only screen and (max-height: 650px) {
+              body {
+                font-size: 0.84em;
+              }
+            }
+          `}</style>
+
+          {/*<link rel='shortcut icon' href='https://jkm.now.sh/logos/pfp.png' />*/}
           <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="theme-color" content="#000000" />
+          <meta
+            name="keywords"
+            content="joshua martinez,joshua,personal,website,projects,about,contact,info,developer"
+          />
           <link
             href="https://fonts.googleapis.com/css?family=Roboto"
             rel="stylesheet"
