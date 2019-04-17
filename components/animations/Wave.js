@@ -1,4 +1,4 @@
-import '../styles/wave.css'
+import '../../styles/wave.css'
 const Wave = () => (
   <div className="box">
     <div className="wave -one" />
