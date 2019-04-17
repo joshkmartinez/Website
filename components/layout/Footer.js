@@ -22,10 +22,10 @@ const Footer = () => (
         <Link href="https://instagram.com/joshkmartinez">
           <Icon Icon={IoLogoInstagram} />
         </Link>
-        <Link href="https://instagram.com/joshkmartinez">
+        <Link href="https://keybase.io/joshkmartinez">
           <Icon Icon={IoMdKey} />
         </Link>
-        <Link href="https://instagram.com/joshkmartinez">
+        <Link href="https://linkedin.com/in/joshkmartinez">
           <Icon Icon={IoLogoLinkedin} />
         </Link>
       </StartLinks>

@@ -3,7 +3,7 @@ const Title = ({ children }) => (
     {children}
     <style jsx>{`
       font-weight: 300;
-      font-size: 2.1em;
+      font-size: 1.2em;
       margin: 0;
 
       @media only screen and (max-height: 650px) {
