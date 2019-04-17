@@ -11,15 +11,16 @@ import {
 } from 'react-icons/io'
 
 import LinkContainer from '../LinkContainer'
+import Title from '../Title';
 const Navbar = () => (
-    <LinkContainer>
-      <StartLinks>
-        <div />
-      </StartLinks>
-      <EndLinks>
-        <Link href="/projects">Projects</Link>
-        <Link href="/about">About</Link>
-      </EndLinks>
-    </LinkContainer>
+  <LinkContainer>
+    <StartLinks>
+      <Title>Joshua Martinez</Title>
+    </StartLinks>
+    <EndLinks>
+      <Link href="/projects">Projects</Link>
+      <Link href="/about">About</Link>
+    </EndLinks>
+  </LinkContainer>
 )
 export default Navbar
