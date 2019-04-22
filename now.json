@@ -26,7 +26,8 @@
     "functional",
     "phunctional",
     "phunction",
-    "phun"
+    "phun",
+    "threesixnine"
   ],
   "version": 2,
   "builds": [{ "src": "next.config.js", "use": "@now/next" }],

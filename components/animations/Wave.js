@@ -1,6 +1,6 @@
 import '../../styles/wave.css'
 const Wave = () => (
-  <div className="box">
+  <div>
     <div className="wave -one" />
     <div className="wave -two" />
     <div className="wave -three" />
