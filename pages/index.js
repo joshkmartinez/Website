@@ -3,7 +3,12 @@ import Jumbo from '../components/Jumbo'
 import Navbar from '../components/layout/Navbar'
 import Footer from '../components/layout/Footer'
 import Animation from '../components/layout/Animation'
-import StickyFooter from 'react-sticky-footer'
+import Snow from '../components/animations/Snow'
+import Button from '../components/Button'
+import Wave from '../components/animations/Wave'
+import Top from '../components/layout/top'
+import Bottom from '../components/layout/bottom'
+import Container from '../components/layout/Container'
 class App extends React.Component {
   constructor(props) {
     super(props)
@@ -13,12 +18,20 @@ class App extends React.Component {
   componentDidMount() {}
   render() {
     return (
-      <React.Fragment>
+      <Container>
+        {/*<Navbar />*/}
+
+        <Top />
+
         <Jumbo>
-          <Navbar />
           <Animation />
-          <Footer />
         </Jumbo>
+
+        {/*<Button />*/}
+        {/*<Footer />*/}
+
+        <Bottom />
+
         {/*<StickyFooter
           bottomThreshold={50}
           normalStyles={{
@@ -32,7 +45,7 @@ class App extends React.Component {
         >
           <Footer />
         </StickyFooter>*/}
-      </React.Fragment>
+      </Container>
     )
   }
 }

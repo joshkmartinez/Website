@@ -11,7 +11,7 @@ export default withRouter(
           transition: all 0.3s ease;
           text-decoration: none; //removes link underline
           display: inline-block;
-
+          margin: 3px; //fix margin
           :hover {
             font-weight: bold;
             color: '#123456';
