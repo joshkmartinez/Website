@@ -7,11 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "deploy": "now",
-    "postdeploy": "now alias"
+    "deploy": "yarn build && yarn export"
   },
   "keywords": [],
   "author": "",

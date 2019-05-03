@@ -26,7 +26,7 @@ const MenuHolder = ({ children, className }) => (
 
 const Bottom = () => (
   <Flex>
-    <Box p={3} width={1 / 2} bg="whitesmoke">
+    <Box p={3} width={1 / 2} /*bg="whitesmoke"*/>
       <Link href="https://twitter.com/joshkmartinez">
         <Icon Icon={IoLogoTwitter} />
       </Link>
@@ -43,8 +43,8 @@ const Bottom = () => (
         <Icon Icon={IoLogoLinkedin} />
       </Link>
     </Box>
-    <Box p={3} width={1 / 2} bg="grey">
-      Box
+    <Box p={3} width={1 / 2} /*bg="grey"*/>
+      <div />
     </Box>
   </Flex>
 )
