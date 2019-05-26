@@ -1,15 +1,17 @@
 import React from 'react'
 import Jumbo from '../components/Jumbo'
-import Navbar from '../components/layout/Navbar'
-import Footer from '../components/layout/Footer'
-import Animation from '../components/layout/Animation'
+import Bottom from '../components/layout/bottom'
+import Container from '../components/layout/Container'
+import Top from '../components/layout/top'
 const About = () => (
-  <React.Fragment>
+  <Container>
+    <Top />
+
     <Jumbo>
-      <Navbar />
-      <div>I made the thing do something.</div>
-      <Footer />
+      <div>I make stuff do things.</div>
     </Jumbo>
-  </React.Fragment>
+
+    <Bottom />
+  </Container>
 )
 export default About

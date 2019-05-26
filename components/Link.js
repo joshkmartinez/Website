@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { withRouter } from 'next/router'
 
 export default withRouter(
-  ({ href = '#', children, color = 'black', className }) => (
+  ({ href = '/', children, color = 'black', className }) => (
     <Link href={href}>
       <a className={className}>
         {children}
@@ -11,7 +11,7 @@ export default withRouter(
           transition: all 0.3s ease;
           text-decoration: none; //removes link underline
           display: inline-block;
-          margin: 3px; //fix margin
+          margin: 6px; //fix margin
           :hover {
             font-weight: bold;
             color: '#123456';
