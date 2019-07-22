@@ -4476,9 +4476,9 @@ readdirp@^2.2.1:
     readable-stream "^2.0.2"
 
 rebass@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/rebass/-/rebass-3.1.0.tgz#6f3779a20fd5e196623f45463b2aa8843e5feb5e"
-  integrity sha512-FtmBb0bDT8q8HaGT4uAiJAQKZOdMsdonx6vp/cjnPc23FdMoo74ClTm0vJAwkWY1KzA0LCvmPbyGvWE0FFMR8w==
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/rebass/-/rebass-3.1.2.tgz#75774c93a6d7ce2abc9ea4a20f7a98274d131328"
+  integrity sha512-7WRnzfSuBLFVqbzDRWSQBLq/VdQpaJbJdMshFNBu2mPAuZB1W4hZ6PuN3y+Aqvwggi16vFd+x/TwgTdkw5bBBw==
   dependencies:
     styled-system "^4.0.8"
 
