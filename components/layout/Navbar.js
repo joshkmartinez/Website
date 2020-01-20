@@ -11,7 +11,7 @@ import {
 } from 'react-icons/io'
 
 import LinkContainer from '../LinkContainer'
-import Title from '../Title';
+import Title from '../Title'
 const Navbar = () => (
   <LinkContainer>
     <StartLinks>

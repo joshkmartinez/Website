@@ -12,7 +12,7 @@ const Top = () => (
       <Box p={3} width={1 / 2} /*bg="grey"*/>
         <Link href="/projects">Projects</Link>
         <Link href="/about">About</Link>
-        <Link href="/resume">Résumé</Link>
+        <Link href="/resume">Resume</Link>
       </Box>
     </Flex>
   </Holder>

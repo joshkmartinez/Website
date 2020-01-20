@@ -8,7 +8,7 @@ const About = () => (
     <Top />
 
     <Jumbo>
-      <div>I make stuff do things.</div>
+      <div>I am a maker.</div>
     </Jumbo>
 
     <Bottom />

@@ -3,7 +3,7 @@ import Layers from '../animations/Layers'
 import Snow from '../animations/Snow'
 const Animation = () => (
   <div>
-    <div>[ This page is intentionally left blank. ]</div>😉
+    <div>[ This page is intentionally left blank. ]</div>
 
   </div>
 )
